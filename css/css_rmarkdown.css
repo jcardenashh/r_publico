@@ -1,0 +1,77 @@
+
+body {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: Geekflare,sans-serif;
+    line-height: 1.6;
+    background-color: rgb(247,247,247);
+	margin: 0 auto;
+    padding: 0;
+
+}
+
+p{
+	color: rgb(34,50,114);
+	text-align:justify;
+	background-color: rgb(244,244,244);
+	font-size: 18px;	
+    font-family: Geekflare,sans-serif;
+    line-height: 150%;
+}
+/*negritas*/
+strong{
+	color: #2F5496;
+}
+
+h1{
+	color: rgb(255,102,0);
+	font-weight: bold;
+}
+h2{
+	color: rgb(22,144,120);
+	font-weight: bold;
+	font-size: 42px;
+}
+h3{
+	color: rgb(22,144,120);
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.btn{
+	background-color: #ff4e00;
+	color:#fff;
+	font-size: 14px;
+	padding: 5px;
+
+}
+
+/*ventana codigo R*/
+.r{
+	color: rgb(34,50,114);
+	font-size: bold;
+	background-color: #D6E0F2;
+	border: 2px solid #2F5496;
+	font-size: 14px;
+	margin: 20px 0p
+
+}
+
+/*Comentarios de codigo*/
+
+
+.hljs-comment{
+	color: rgb(0,0,0);
+}
+
+
+/*ventana codigo general*/
+pre{
+	color: rgb(34,50,114);
+	font-size: bold;
+	background-color: #D6E0F2;
+	border: 0.5px solid #2F5496;
+	font-size: 14px;
+	border-left: 4px solid  #2F5496;
+	margin: 20px 0p
+}

@@ -15,23 +15,27 @@ p{
 	text-align:justify;
 	background-color: rgb(244,244,244);
 	font-size: 18px;	
-    font-family: Geekflare,sans-serif;
-    line-height: 150%;
+  font-family: Geekflare,sans-serif;
+  line-height: 150%;
 }
+
 /*negritas*/
 strong{
 	color: #2F5496;
 }
 
+
 h1{
-	color: rgb(255,102,0);
+	color: tomato;
 	font-weight: bold;
 }
+
 h2{
 	color: rgb(22,144,120);
 	font-weight: bold;
-	font-size: 42px;
+	font-size: 36px;
 }
+
 h3{
 	color: rgb(22,144,120);
 	font-weight: bold;
@@ -49,17 +53,15 @@ h3{
 /*ventana codigo R*/
 .r{
 	color: rgb(34,50,114);
-	font-size: bold;
+	font-weight: bold;
 	background-color: #D6E0F2;
 	border: 2px solid #2F5496;
 	font-size: 14px;
-	margin: 20px 0p
+	margin: 20px 0px;
 
 }
 
 /*Comentarios de codigo*/
-
-
 .hljs-comment{
 	color: rgb(0,0,0);
 }
@@ -68,10 +70,65 @@ h3{
 /*ventana codigo general*/
 pre{
 	color: rgb(34,50,114);
-	font-size: bold;
+	font-weight: bold;
 	background-color: #D6E0F2;
 	border: 0.5px solid #2F5496;
 	font-size: 14px;
 	border-left: 4px solid  #2F5496;
-	margin: 20px 0p
+	margin: 20px 0px;
+}
+
+/* formato de los tab*/
+.tab-content {
+	border: 0.5px solid #2F5496;
+	padding-left: 5px;
+
+}
+
+.tab-content p{
+	background-color: white;
+}
+
+/*formato card*/
+.card-2 {
+	padding: 20px;
+	background: #fff;
+	border-radius: 6px;
+	box-shadow: 2px 2px 12px rgba(49, 62, 87, 0.25);
+	min-height: 272px; 
+	margin-top: 20px;
+}
+
+
+/*Ventana del menu*/
+
+.tocify {
+    width: 20%;
+    max-height: 100%;
+    overflow: auto;
+    margin-left: 2%;
+    position: fixed;
+    border: 1px solid #ccc;
+    webkit-border-radius: 6px;
+    moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.tocify-header {
+  /*titulo nivel 1*/
+    font-weight: bold;
+    background-color: rgb(230,230,230);
+}
+
+
+.tocify-subheader {
+  /*titulo nivel2*/
+  font-weight: normal;
+  
+}
+
+/*ventana del contenido*/
+.toc-content {
+    padding-left: 10px;
+    padding-right: 20px;
 }

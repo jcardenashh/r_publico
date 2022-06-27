@@ -1,1 +1,4 @@
 Css usado en proyectos de R
+
+/*ruta de acceso*/
+https://gitcdn.link/cdn/jcardenashh/r_publico/main/css/css_rmarkdown.css

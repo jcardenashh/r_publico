@@ -11,6 +11,10 @@ body {
 
 }
 
+div.main-container {
+    max-width: 1400px !important;
+}
+
 p{
 	color: rgb(34,50,114);
 	text-align:justify;
@@ -52,20 +56,15 @@ h3{
 }
 
 /*ventana codigo R*/
-.r{
+.sourceCode.r{
 	color: rgb(34,50,114);
 	font-weight: bold;
 	background-color: #D6E0F2;
 	border: 2px solid #2F5496;
-	font-size: 14px;
 	margin: 20px 0px;
 
 }
 
-/*Comentarios de codigo*/
-.hljs-comment{
-	color: rgb(0,0,0);
-}
 
 
 /*ventana codigo general*/
@@ -133,3 +132,50 @@ pre{
     padding-left: 10px;
     padding-right: 20px;
 }
+
+
+
+/* colores de la sintaxis */
+
+.hljs {
+  color: #478A95;
+  font-size: 16px;
+}
+.hljs-string {
+  color: #44aa43;
+  font-style: bold;
+}
+
+.hljs-number {
+  color: #44aa43 !important;
+  font-style: bold;
+}
+
+.hljs-title {
+  color: #478A95 !important;
+}
+
+.hljs-built_in {
+  color: #034d58 !important;
+}
+
+.hljs-keyword {
+  color: #ff9358 !important;
+}
+
+.hljs-function > .hljs-keyword {
+  color: #ff9358 !important;
+  font-style: italic;
+}
+
+.hljs-params {
+  color: rgba(224, 51, 51, 0.678);
+}
+
+.hljs-comment {
+  
+  color: rgb(34,50,114);
+  font-size: 16px;
+  font-style: bold
+}
+

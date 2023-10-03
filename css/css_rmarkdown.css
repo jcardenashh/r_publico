@@ -127,6 +127,10 @@ pre{
   font-weight: normal;
   
 }
+.list-group-item:hover{
+  color:#ff4e00;
+  font-weight: bol;
+}
 
 /*ventana del contenido*/
 .toc-content {

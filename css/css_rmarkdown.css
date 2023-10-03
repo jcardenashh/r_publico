@@ -112,7 +112,8 @@ pre{
     border: 1px solid #16365C;
     webkit-border-radius: 6px;
     moz-border-radius: 6px;
-    border-radius: 6px;
+    border-radius: 8px;
+    border-left: 4px solid #16365C;
 }
 
 .tocify-header {

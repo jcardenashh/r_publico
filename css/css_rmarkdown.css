@@ -46,6 +46,14 @@ h3{
 	font-weight: bold;
 	font-size: 24px;
 }
+hr {
+  /* linea horizontal */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px solid rgb(22,54,92) ;
+}
+
 
 .btn{
 	background-color: #ff4e00;

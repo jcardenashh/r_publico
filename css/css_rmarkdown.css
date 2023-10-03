@@ -6,7 +6,7 @@ body {
     font-family: Geekflare,sans-serif;
     line-height: 1.6;
     background-color: rgb(247,247,247);
-	margin: 0 auto;
+    margin: 0 auto;
     padding: 0;
 
 }
@@ -129,7 +129,7 @@ pre{
 }
 .list-group-item:hover{
   color:#ff4e00;
-  font-weight: bol;
+  font-weight: bold;
 }
 
 /*ventana del contenido*/

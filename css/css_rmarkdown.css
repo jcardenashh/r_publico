@@ -109,7 +109,7 @@ pre{
     overflow: auto;
     margin-left: 2%;
     position: fixed;
-    border: 1px solid #ccc;
+    border: 1px solid #16365C;
     webkit-border-radius: 6px;
     moz-border-radius: 6px;
     border-radius: 6px;
@@ -119,17 +119,24 @@ pre{
   /*titulo nivel 1*/
     font-weight: bold;
     background-color: rgb(230,230,230);
+    color:rgb(22,54,92) !important;
 }
 
 
 .tocify-subheader {
   /*titulo nivel2*/
   font-weight: normal;
+  color:#16365C !important;
   
 }
 .list-group-item:hover{
   color:#ff4e00;
   font-weight: bold;
+}
+.list-group-item.active{
+/* item seleccionado */
+  background-color: rgb(22,54,92) !important;
+  
 }
 
 /*ventana del contenido*/

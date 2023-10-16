@@ -12,16 +12,17 @@ body {
 }
 
 div.main-container {
-    max-width: 95% !important;
+    max-width: 95% !important;s
 }
 
-p{
-	color: rgb(34,50,114);
+p{s
+	color:rgb(34,50,114);
 	text-align:justify;
-	background-color: rgb(244,244,244);
-	font-size: 18px;	
-  font-family: Geekflare,sans-serif;
-  line-height: 150%;
+	background-color:rgb(244,244,244);
+	font-size:18px;	
+  font-family:Geekflare,sans-serif;
+  line-height:150%;
+  margin: 0px 5px 15px 5px;
 }
 
 /*negritas*/
@@ -162,6 +163,34 @@ pre{
   background-color: rgb(22,54,92);
   font-style: bold;
 }
+
+.nav-pills {
+  background: #434f66;s
+  display: flex;
+  flex-wrap: wrap; 
+}
+.nav-pills .link {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto; 
+}
+.nav-pills a {
+  color: #FFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px 25px;
+  transition: .3s ease all;
+  font-size: 18px; 
+}
+.nav-pills a.activo {
+  background: #232c3c;
+ }
+.nav-pills a:hover {
+  background: #394253; 
+}
+
 
 
 

@@ -160,7 +160,7 @@ pre{
 .nav-pills>li.active>a:hover {
   color: #fff;
   background-color: rgb(22,54,92);
-  font-style: bold;
+ font-weight: bold;
 }
 
 
@@ -173,12 +173,12 @@ pre{
 }
 .hljs-string {
   color: #44aa43;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .hljs-number {
   color: #44aa43 !important;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .hljs-title {
@@ -206,6 +206,6 @@ pre{
   
   color: rgb(34,50,114);
   font-size: 16px;
-  font-style: bold
+  font-weight: bold;
 }
 

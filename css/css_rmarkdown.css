@@ -138,6 +138,11 @@ pre{
   color:#16365C !important;
   
 }
+
+.tocify ul, .tocify li {
+    line-height: 25px !important;
+}
+
 .list-group-item:hover{
   color:#ff4e00;
   font-weight: bold;

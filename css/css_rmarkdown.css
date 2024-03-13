@@ -1,32 +1,33 @@
 /*link de acceso*/
 /*https://gitcdn.link/cdn/jcardenashh/r_publico/main/css/css_rmarkdown.css*/
 body {
-    font-size: 1.6rem;
-    font-weight: 400;
-    font-family: Geekflare,sans-serif;
-    line-height: 1.6;
-    background-color: rgb(247,247,247);
-    margin: 0 auto;
-    padding: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: Geekflare,sans-serif;
+  line-height: 1.6;
+  background-color: rgb(247,247,247);
+  margin: 0 auto;
+  padding: 0;
 
 }
 
+
 div.main-container {
-    max-width: 95% !important;
+    max-width: 98% !important;
 }
 
 p{
-	color: rgb(34,50,114);
-	text-align:justify;
-	background-color: rgb(244,244,244);
-	font-size: 18px;	
-  font-family: Geekflare,sans-serif;
-  line-height: 150%;
+color: rgb(34,50,114);
+text-align:justify;
+/*background-color: rgb(244,244,244); */
+font-size: 18px;	
+font-family: Geekflare,sans-serif;
+line-height: 200%;
 }
 
 /*negritas*/
 strong{
-	color: #2F5496;
+color: #2F5496;
 }
 
 

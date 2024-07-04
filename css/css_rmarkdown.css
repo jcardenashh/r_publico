@@ -1,6 +1,13 @@
 /*link de acceso*/
 /*https://gitcdn.link/cdn/jcardenashh/r_publico/main/css/css_rmarkdown.css*/
 body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: Geekflare,sans-serif;
+  line-height: 1.6;
+  background-color: rgb(247,247,247);
+  margin: 0 auto;
+  padding: 0;
 
 }
 
@@ -214,10 +221,12 @@ pre{
 }
 .hljs-string {
   color: #44aa43;
+  font-weight: bold;
 }
 
 .hljs-number {
   color: #44aa43 !important;
+  font-weight: bold;
 }
 
 .hljs-title {
@@ -245,5 +254,6 @@ pre{
   
   color: rgb(34,50,114);
   font-size: 16px;
+  font-weight: bold;
 }
 

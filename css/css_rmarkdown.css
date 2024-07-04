@@ -1,17 +1,12 @@
 /*link de acceso*/
 /*https://gitcdn.link/cdn/jcardenashh/r_publico/main/css/css_rmarkdown.css*/
 body {
-    font-size: 1.6rem;
-    font-weight: 400;
-    font-family: Geekflare,sans-serif;
-    line-height: 1.6;
-    background-color: rgb(247,247,247);
-    margin: 0 auto;
-    padding: 0;
 
 }
 
+
 div.main-container {
+<<<<<<< HEAD
     max-width: 95% !important;s
 }
 
@@ -23,11 +18,23 @@ p{s
   font-family:Geekflare,sans-serif;
   line-height:150%;
   margin: 0px 5px 15px 5px;
+=======
+    max-width: 98% !important;
+}
+
+p{
+color: rgb(34,50,114);
+text-align:justify;
+/*background-color: rgb(244,244,244); */
+font-size: 18px;	
+font-family: Geekflare,sans-serif;
+line-height: 200%;
+>>>>>>> d9335bd234fb99de12db08b6b6e1a3eabd98b715
 }
 
 /*negritas*/
 strong{
-	color: #2F5496;
+color: #2F5496;
 }
 
 
@@ -138,6 +145,11 @@ pre{
   color:#16365C !important;
   
 }
+
+.tocify ul, .tocify li {
+    line-height: 25px !important;
+}
+
 .list-group-item:hover{
   color:#ff4e00;
   font-weight: bold;
@@ -161,7 +173,7 @@ pre{
 .nav-pills>li.active>a:hover {
   color: #fff;
   background-color: rgb(22,54,92);
-  font-style: bold;
+ font-weight: bold;
 }
 
 .nav-pills {
@@ -202,12 +214,10 @@ pre{
 }
 .hljs-string {
   color: #44aa43;
-  font-style: bold;
 }
 
 .hljs-number {
   color: #44aa43 !important;
-  font-style: bold;
 }
 
 .hljs-title {
@@ -235,6 +245,5 @@ pre{
   
   color: rgb(34,50,114);
   font-size: 16px;
-  font-style: bold
 }
 

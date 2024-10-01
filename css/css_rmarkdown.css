@@ -16,13 +16,13 @@ div.main-container {
 }
 
 p{
- /* text-align: justify;*/
+  text-align: justify;
 	background-color: rgb(244,244,244);
 	font-size:18px;	
   font-family:Geekflare,sans-serif;
   line-height:200%;
   margin: 0px 5px 15px 5px;
-    max-width: 98% !important;
+  max-width: 98% !important;
 }
 
 /*negritas*/

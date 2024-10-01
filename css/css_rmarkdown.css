@@ -3,7 +3,7 @@
 body {
   font-size: 1.6rem;
   font-weight: 400;
-  font-family: Geekflare,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   background-color: rgb(247,247,247);
   margin: 0 auto;
@@ -21,15 +21,22 @@ p{
   text-align: justify;
 	color:rgb(34,50,114);
 	font-size:18px;	
-  font-family:Geekflare,sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   line-height:200%;
   margin: 0px 5px 15px 5px;
   max-width: 98% !important;
 }
 
+ul{
+  text-align: justify;
+	color:rgb(34,50,114);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 li{
   text-align: justify;
 	color:rgb(34,50,114);
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 

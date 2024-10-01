@@ -8,6 +8,8 @@ body {
   background-color: rgb(247,247,247);
   margin: 0 auto;
   padding: 0;
+  line-height:200%;
+  color:rgb(34,50,114);
 
 }
 
@@ -24,6 +26,12 @@ p{
   margin: 0px 5px 15px 5px;
   max-width: 98% !important;
 }
+
+li{
+  text-align: justify;
+	color:rgb(34,50,114);
+}
+
 
 /*negritas*/
 strong{

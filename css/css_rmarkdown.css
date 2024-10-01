@@ -70,6 +70,46 @@ hr {
   border-top: 2px solid rgb(22,54,92) ;
 }
 
+/* tablas */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid rgba(49, 62, 87, 0.25);
+}
+
+th {
+  background-color: #f2f2f2;
+  color: rgb(34,50,114);
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+caption {
+  caption-side: bottom;
+  font-size: 12px;
+  padding: 8px;
+  color: rgba(2, 129, 45, 0.25);
+}
+
+
+
+
+
 .btn{
 	background-color: #ff4e00;
 	color:#fff;

@@ -84,7 +84,7 @@ table {
 
 th, td {
   padding: 12px;
-  border: 1px solid rgba(49, 62, 87, 0.25);
+  /*border: 1px solid rgba(49, 62, 87, 0.25);*/
 }
 
 th {
@@ -94,11 +94,11 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: rgb(175,198,223);
+  background-color: rgb(220,230,241);
 }
 
 tr:hover {
-  background-color: rgb(220,230,241);
+  background-color: rgb(175,198,223);
 }
 
 caption {

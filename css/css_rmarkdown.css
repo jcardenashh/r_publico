@@ -109,6 +109,11 @@ tr:hover {
  border-top: none !important;;
 }
 
+tr:last-child td {
+  border-bottom: 3px solid rgb(22,54,92); /* Borde inferior más grueso y oscuro en la última fila */
+}
+
+
 caption {
   caption-side: bottom;
   font-size: 12px;

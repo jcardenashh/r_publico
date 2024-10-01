@@ -110,6 +110,7 @@ pre{
 /*Ventana del menu*/
 
 .tocify {
+<<<<<<< Updated upstream
   width: 20%;
   max-width: 95% !important;
   max-height: 95% !important;
@@ -120,14 +121,35 @@ pre{
   border-radius: 8px;
   border-left: 4px solid #16365C;
     
+=======
+    width: 20%;
+    max-height: 100%;
+    overflow: auto;
+    margin-left: 2%;
+    position: fixed;
+    border: 2px solid #ccc;
+    webkit-border-radius: 6px;
+    moz-border-radius: 6px;
+    border-radius: 6px;
+>>>>>>> Stashed changes
+}
+
+.tocify ul, .tocify li{
+	
+	border:black;
 }
 
 .tocify-header {
   /*titulo nivel 1*/
     font-weight: bold;
     background-color: rgb(230,230,230);
+<<<<<<< Updated upstream
     color:rgb(22,54,92) !important;
+=======
+	text-indent: 0px;
+>>>>>>> Stashed changes
 }
+
 
 
 .tocify-subheader {

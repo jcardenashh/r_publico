@@ -26,7 +26,7 @@ div.main-container {
 p{
   text-align: justify;
   color:white;
-  font-size:33px;	
+  /*font-size:33px;	*/
   font-family:Arial, Helvetica, sans-serif;
   line-height:200%;
   margin: 0px 5px 15px 5px;
@@ -35,7 +35,7 @@ p{
 
 /*Texto pie de pagina*/
 .reveal .footer p {
-    padding-left: 120px;
+    padding-left: 120px !important;
     font-size: 16px;
 }
 

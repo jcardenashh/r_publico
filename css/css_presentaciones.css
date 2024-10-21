@@ -33,13 +33,11 @@ p{
   max-width: 98% !important;
 }
 
-
 .reveal .footer .p {
     padding-left: 120px;
     font-size: 16px;
 }
 	
-
 ul{
   text-align: justify;
 	color:rgb(34,50,114);
@@ -58,14 +56,13 @@ strong{
 color: white;
 }
 
-
 .reveal h1{
 	color: #E7AB49;
 	font-weight: bold;
 }
 
 .reveal h2{
-	color: color: #E7AB49;
+	color: #E7AB49;
 	font-weight: bold;
 	font-size: 36px;
 }

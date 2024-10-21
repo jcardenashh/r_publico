@@ -33,6 +33,13 @@ p{
   max-width: 98% !important;
 }
 
+
+.reveal .footer .p {
+    padding-left: 120px;
+    font-size: 16px;
+}
+	
+
 ul{
   text-align: justify;
 	color:rgb(34,50,114);

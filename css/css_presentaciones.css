@@ -68,7 +68,7 @@ li{
 
 /*negritas*/
 strong{
-color: yellow;
+color: #FFE600;
 }
 
 /*Titulo1*/
@@ -99,6 +99,7 @@ h1.title {
 	color: #E7AB49;
 	font-weight: bold;
 	font-size: 2em;
+	border-bottom:3px #FFE600 solid;
 }
 
 .reveal h3{

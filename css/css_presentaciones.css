@@ -46,7 +46,7 @@ p{
 
 /*logo*/
 .reveal .slide-logo {
-    max-height: 8rem;
+    max-height: 8rem !important;
 }
 
 /*Texto pie de pagina*/

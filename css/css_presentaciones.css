@@ -14,21 +14,32 @@ body {
 }
 
 .backgrounds{
-
-color: black;
-
+background-color: black;
 }
 
 div.main-container {
     max-width: 95% !important;
 }
 
+
+element.style {
+  width: 98%;
+  height: 700px;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%) scale(0.691714);
+}
+
+
 p{
   text-align: justify;
+<<<<<<< Updated upstream
   color:white;
   /*font-size:33px;	*/
+=======
+	color:white;
+>>>>>>> Stashed changes
   font-family:Arial, Helvetica, sans-serif;
-  line-height:200%;
+  line-height:160%;
   margin: 0px 5px 15px 5px;
   max-width: 98% !important;
 }
@@ -47,32 +58,58 @@ p{
 
 ul{
   text-align: justify;
-	color:rgb(34,50,114);
+	color:white;
   font-family:Arial, Helvetica, sans-serif;
 }
 
 li{
   text-align: justify;
+<<<<<<< Updated upstream
   color:white;
+=======
+	color:white;
+>>>>>>> Stashed changes
   font-family:Arial, Helvetica, sans-serif;
 }
 
 
 /*negritas*/
 strong{
+<<<<<<< Updated upstream
 color: white;
 }
 
 /*Titulo1*/
 .reveal h1{
 	color: #E7AB49;
+=======
+color: yellow;
+}
+
+.reveal .footer{
+  padding-left: 120px;
+}
+
+.reveal h1 .title{
+
+color: white;
+
+}
+.reveal h1{
+	color: #e7ad52;;
+>>>>>>> Stashed changes
 	font-weight: bold;
 }
 
 .reveal h2{
+<<<<<<< Updated upstream
 	color: #E7AB49;
 	font-weight: bold;
 	font-size: 2em;
+=======
+	color:yellow;
+	font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 .tab-content {
@@ -146,8 +183,6 @@ caption {
 
 
 
-
-
 .btn{
 	background-color: #ff4e00;
 	color:#fff;
@@ -188,37 +223,8 @@ pre{
 	background-color: white;
 }
 
-/*formato card*/
-.card-2 {
-	padding: 20px;
-	background: #fff;
-	border-radius: 6px;
-	box-shadow: 2px 2px 12px rgba(49, 62, 87, 0.25);
-	min-height: 272px; 
-	margin-top: 20px;
-}
 
 
-/*Ventana del menu*/
-
-.tocify{
-  width: 20%;
-  max-width: 95% !important;
-  max-height: 95% !important;
-  overflow: auto;
-  margin-left: 2%;
-  position: fixed;
-  border: 1px solid #16365C;
-  border-radius: 8px;
-  border-left: 4px solid #16365C;
-  width: 20%;
-  max-height: 100%;
-  overflow: auto;
-  margin-left: 2%;
-  position: fixed;
-  border: 2px solid #ccc;
-  border-radius: 6px;
-}
 
 .tocify ul, .tocify li{
 	border:black;

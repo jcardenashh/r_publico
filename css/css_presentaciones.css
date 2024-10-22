@@ -10,7 +10,6 @@ body {
   padding: 0;
   line-height:200%;
   color:rgb(34,50,114);
-
 }
 
 .backgrounds{
@@ -29,15 +28,10 @@ element.style {
   transform: translate(-50%, -50%) scale(0.691714);
 }
 
-
 p{
   text-align: justify;
-<<<<<<< Updated upstream
   color:white;
   /*font-size:33px;	*/
-=======
-	color:white;
->>>>>>> Stashed changes
   font-family:Arial, Helvetica, sans-serif;
   line-height:160%;
   margin: 0px 5px 15px 5px;
@@ -64,26 +58,19 @@ ul{
 
 li{
   text-align: justify;
-<<<<<<< Updated upstream
   color:white;
-=======
-	color:white;
->>>>>>> Stashed changes
   font-family:Arial, Helvetica, sans-serif;
 }
 
 
 /*negritas*/
 strong{
-<<<<<<< Updated upstream
 color: white;
 }
 
 /*Titulo1*/
 .reveal h1{
 	color: #E7AB49;
-=======
-color: yellow;
 }
 
 .reveal .footer{
@@ -91,25 +78,17 @@ color: yellow;
 }
 
 .reveal h1 .title{
-
-color: white;
-
+  color: white;
 }
 .reveal h1{
-	color: #e7ad52;;
->>>>>>> Stashed changes
+	color: #e7ad52;
 	font-weight: bold;
 }
 
 .reveal h2{
-<<<<<<< Updated upstream
 	color: #E7AB49;
 	font-weight: bold;
 	font-size: 2em;
-=======
-	color:yellow;
-	font-weight: bold;
->>>>>>> Stashed changes
 }
 
 .tab-content {

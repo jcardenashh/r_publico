@@ -15,11 +15,17 @@ body {
 .backgrounds{
 background-color: black;
 }
+.fondo_alternativo{
+background-color: #2D2D38;	
+}
+
+.borde_inferior{
+border-bottom:3px #FFE600 solid;
+}
 
 div.main-container {
     max-width: 95% !important;
 }
-
 
 element.style {
   width: 98%;
@@ -64,6 +70,12 @@ li{
   text-align: justify;
   color:white;
   font-family:Arial, Helvetica, sans-serif;
+}
+
+ul li::marker {
+    color: #FFE600;
+    content: '►';
+    font-size: 0.8em;
 }
 
 /*negritas*/

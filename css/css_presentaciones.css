@@ -44,6 +44,11 @@ p{
   max-width: 98% !important;
 }
 
+/*logo*/
+.reveal .slide-logo {
+    max-height: 8rem;
+}
+
 /*Texto pie de pagina*/
 .reveal .footer p {
     padding-left: 120px !important;

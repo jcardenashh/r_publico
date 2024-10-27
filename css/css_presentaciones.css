@@ -28,13 +28,6 @@ div.main-container {
     max-width: 95% !important;
 }
 
-element.style {
-  width: 98%;
-  height: 700px;
-  inset: 50% auto auto 50%;
-  transform: translate(-50%, -50%) scale(0.691714);
-}
-
 p{
   text-align: justify;
   color:white;
@@ -47,13 +40,13 @@ p{
 
 /*logo*/
 .reveal .slide-logo {
-    max-height: 8rem !important;
+  max-height: 6rem !important;
 }
 
 /*Texto pie de pagina*/
 .reveal .footer p {
-    padding-left: 120px !important;
-    font-size: 1em;
+  padding-left: 120px !important;
+  font-size: 1em;
 }
 
 .tab-content {
@@ -107,7 +100,6 @@ h1.title {
   display: none;
 }
 
-
 .reveal h1{
 	color: #e7ad52;
 	font-weight: bold;
@@ -119,19 +111,14 @@ h1.title {
 	font-size: 2em;
 	border-bottom:3px #FFE600 solid;
 }
-
 .reveal h3{
 	color: #E7AB49;
 	font-weight: bold;
 }
-
 .reveal h4{
 	color: #E7AB49;
 	font-weight: bold;
 }
-
-
-
 
 hr {
   /* linea horizontal */
@@ -197,7 +184,11 @@ caption {
 	color:#fff;
 	font-size: 14px;
 	padding: 5px;
+  text-align: center;
+}
 
+.btn p{
+  text-align: center;
 }
 
 /*ventana codigo R*/
@@ -231,8 +222,6 @@ pre{
 .tab-content p{
 	background-color: white;
 }
-
-
 
 
 .tocify ul, .tocify li{
@@ -313,10 +302,7 @@ pre{
   background: #394253; 
 }
 
-
-
 /* colores de la sintaxis */
-
 .hljs {
   color: #236974;
   font-size: 16px;

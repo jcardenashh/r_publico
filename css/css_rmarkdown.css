@@ -12,6 +12,10 @@ body {
   color:rgb(34,50,114);
 
 }
+/* ocultar el primer boton code*/
+.btn-group>.btn:first-child {
+    display: none;
+}
 
 /* Estilo oscuro */
 body.dark{

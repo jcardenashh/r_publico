@@ -12,6 +12,16 @@ body {
   color:rgb(34,50,114);
 
 }
+/* ocultar el primer boton code*/
+.btn-group>.btn:first-child {
+    display: none;
+}
+
+/* Estilo oscuro */
+body.dark{
+background-color: rgb(10,10,10);
+color: rgb(247,247,247);
+}
 
 div.main-container {
     max-width: 95% !important;
@@ -19,17 +29,21 @@ div.main-container {
 
 p{
   text-align: justify;
-	color:rgb(34,50,114);
-	font-size:18px;	
+  color:rgb(34,50,114);
+  font-size:1.8em;	
   font-family:Arial, Helvetica, sans-serif;
   line-height:200%;
   margin: 0px 5px 15px 5px;
   max-width: 98% !important;
 }
 
+/* Color específico para los párrafos en modo oscuro */
+body.dark p {
+    color: white; 
+}
 ul{
   text-align: justify;
-	color:rgb(34,50,114);
+  color:rgb(34,50,114);
   font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -38,17 +52,24 @@ li{
 	color:rgb(34,50,114);
   font-family:Arial, Helvetica, sans-serif;
 }
-
-
 /*negritas*/
 strong{
 color: #2F5496;
 }
 
+/*negritas*/
+body.dark strong{
+color: #FFE600;
+}
 
 h1{
 	color: tomato;
 	font-weight: bold;
+}
+
+h1.title{
+/*color:#FFC000;*/
+font-size:3.5em;
 }
 
 h2{
@@ -63,6 +84,9 @@ h3{
 	font-size: 24px;
 }
 
+body.dark h1, body.dark h2,  body.dark h3 {
+  color:#FFC000; /*Color específico para los encabezados en modo oscuro */
+}
 
 hr {
   /* linea horizontal */
@@ -72,8 +96,7 @@ hr {
   border-top: 2px solid rgb(22,54,92) ;
 }
 
-/* tablas */
-
+/* inicio diseño de tablas */
 table {
   width: 98%;
   border-collapse: collapse;
@@ -108,7 +131,6 @@ tr:hover {
 .table>thead>tr>th{
  border-top: none !important;;
 }
-
 tr:last-child td {
   border-bottom: 3px solid rgb(22,54,92); /* Borde inferior más grueso y oscuro en la última fila */
 }
@@ -121,8 +143,7 @@ caption {
   color: rgba(2, 129, 45, 0.25);
 }
 
-
-
+/* fin diseño de tablas*/
 
 
 .btn{
@@ -140,7 +161,6 @@ caption {
 	background-color: #D6E0F2;
 	border: 2px solid #2F5496;
 	margin: 20px 0px;
-
 }
 
 /*ventana codigo general*/
@@ -158,21 +178,33 @@ pre{
 .tab-content {
 	border: 0.5px solid #2F5496;
 	padding-left: 5px;
+}
 
+body.dark .tab-content p {
+    background-color: rgb(25,25,25);
 }
 
 .tab-content p{
 	background-color: white;
 }
+/*estilo oscuro*/
+body.dark .tab-content p {
+    background-color: rgb(25,25,25);
+}
 
 /*formato card*/
 .card-2 {
-	padding: 20px;
-	background: #fff;
-	border-radius: 6px;
-	box-shadow: 2px 2px 12px rgba(49, 62, 87, 0.25);
-	min-height: 272px; 
-	margin-top: 20px;
+padding: 20px;
+background: #fff;
+border-radius: 6px;
+box-shadow: 2px 2px 12px rgba(49, 62, 87, 0.25);
+min-height: 272px; 
+margin-top: 20px;
+}
+
+/* Estilo oscuro */
+body.dark .card-2{
+background-color:rgb(25,25,25);
 }
 
 

@@ -20,6 +20,13 @@ background-color: black;
 background-color: #2D2D38;	
 }
 
+.fondo_alternativo_h1{
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 25px;
+  padding-left: 20px;
+  }
+
+
 .borde_inferior{
 border-bottom:3px #FFE600 solid;
 }

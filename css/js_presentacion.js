@@ -13,6 +13,20 @@ document.getElementById('theme-toggle').addEventListener('click', function() {
     }
 });
 
+// cambiar el tema dambien con la tecla D o d
+// Agregar evento de tecla al documento
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'd' || event.key === 'D') { // Verificar si la tecla es 'D'
+        document.body.classList.toggle('light');
+        // Cambia el texto del botón según el tema
+        const button = document.getElementById('theme-toggle');
+        if (document.body.classList.contains('light')) {
+            button.textContent = 'Cambiar a modo oscuro';
+        } else {
+            button.textContent = 'Cambiar a modo claro';
+        }
+    }
+});
 
 
 // pantalla completa

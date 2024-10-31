@@ -38,7 +38,7 @@ background-color: #2D2D38;
 
 /*tema claro*/
 body.light .fondo_alternativo_h1{
-  background-color: rgba(245,245,245);
+  background-color: rgba(245,245,245,0.5);
 }
 
 

@@ -14,7 +14,7 @@ body {
 
 /* Estilo oscuro */
 body.light{
-  /*background-color: rgb(255,255,255,0.5);*/
+  /*background-color: rgb(255,255,255);*/
   color: #16365c;
   }
 
@@ -25,7 +25,7 @@ background-color: black;
 
 /*tema claro*/
 body.light .backgrounds{
-  background-color: rgb(255,255,255,0.5);
+  background-color: rgb(255,255,255);
 }
 
 .fondo_alternativo{
@@ -34,7 +34,7 @@ background-color: #2D2D38;
 
 .fondo_alternativo_h1{
   background-color: rgba(0,0,0,0.5);
-  border-radius: 25px;
+  /*border-radius: 0px;*/
   padding-left:0px;
 }
 
@@ -147,6 +147,12 @@ h1.title {
 	color: #e7ad52;
 	font-weight: bold;
 }
+
+.reveal .title-slide h1 {
+  border-radius: 25px;
+}
+
+
 
 .reveal h2{
 	color: #E7AB49;

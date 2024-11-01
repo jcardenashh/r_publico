@@ -41,8 +41,6 @@ body.light .fondo_alternativo_h1{
   background-color: rgba(245,245,245,0.5);
 }
 
-
-
 .borde_inferior{
 border-bottom:3px #FFE600 solid;
 }
@@ -159,11 +157,16 @@ body.light .reveal h2 {
   border-bottom:3px #16365c solid;
 }
 
+/* quitar bordes a h2*/
+.reveal .noborder h2, body.light .reveal .noborder h2  {
+  border: none;
+}
 
 .reveal h3{
 	color: #E7AB49;
 	font-weight: bold;
 }
+
 .reveal h4{
 	color: #E7AB49;
 	font-weight: bold;
@@ -211,7 +214,7 @@ tr:hover {
 /*quitar bordes predeterminados*/
 .table>tbody>tr>td, 
 .table>thead>tr>th{
- border-top: none !important;;
+ border-top: none !important;
 }
 
 tr:last-child td {
@@ -231,9 +234,14 @@ caption {
 .btn{
 	background-color: #ff4e00;
 	color:#fff;
-	font-size: 14px;
-	padding: 5px;
   text-align: center;
+  white-space: nowrap;
+  height: 40px; /* Fija la altura del botón */
+  padding: 0 10px; /* Ajusta el espacio interno horizontal */
+  font-size: 16px;
+  display: inline-block;
+  line-height: 40px; /* Alinea el texto verticalmente si es necesario */
+
 }
 
 .btn p{
